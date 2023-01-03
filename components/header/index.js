@@ -29,7 +29,7 @@ const Header = () => {
                 <div className={style.profileImageContainer}>
                     <Image
                       className={style.profileImage}
-                      src='https://i.ibb.co/GnJX4cQ/asu-Dq-Tg-R-400x400.jpg'
+                      src='https://raw.githubusercontent.com/Cross-Rehk/Some_Extra_files/main/logo_flies/two.png'
                       layout='fill'
                       alt='Profile Image'
                     />

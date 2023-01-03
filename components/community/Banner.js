@@ -7,7 +7,7 @@ const style = {
   profileInfoWrapper: 'flex items-start space-x-4 pb-5',
   profilePicWrapper: `-mt-6 h-20 w-20 relative`,
   profilePic:
-    'h-full w-full rounded-full border-4 border-white bg-white bg-cover object-contain',
+    'h-full w-full rounded-full border-4 border-blue-500 bg-blue-400 bg-cover object-contain',
   titleWrapper: 'mt-1',
   title: 'text-2xl font-bold text-[#D7DADC]',
   tag: 'pt-1 text-sm text-gray-400',
@@ -21,7 +21,7 @@ const Banner = () => {
     <div className={style.wrapper}>
       <div className={style.bannerImage}>
         <Image
-          src='https://i.ibb.co/27918K9/channels4-banner.jpg'
+          src='https://raw.githubusercontent.com/Cross-Rehk/Some_Extra_files/main/banner/bannerredit.png'
           layout='fill'
           className='object-cover'
           alt=''
@@ -33,15 +33,15 @@ const Banner = () => {
             <div className={style.profilePicWrapper}>
               <Image
                 className={style.profilePic}
-                src='https://i.ibb.co/Ks6r2s5/r-Ll-Cifh-XRJi-T0-Ro-N2-Fj-K-Logo-roundbackground-black.png'
+                src='https://raw.githubusercontent.com/Cross-Rehk/Some_Extra_files/main/logo_flies/two.png'
                 layout='fill'
                 alt=''
               />
             </div>
 
             <div className={style.titleWrapper}>
-              <h1 className={style.title}>cleverprogrammer</h1>
-              <h2 className={style.tag}>r/cleverprogrammer</h2>
+              <h1 className={style.title}>crossrehk</h1>
+              <h2 className={style.tag}>r/crossrehk</h2>
             </div>
 
             <div className={style.joinButtonContainer}>
